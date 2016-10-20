@@ -2,8 +2,6 @@ BT=read.table('/Users/Loris/Desktop/data.txt')
 nomVAR=read.table('/Users/Loris/Desktop/var.txt')
 nomIND=read.table('/Users/Loris/Desktop/ind.txt')
 
-test github test
-
 names(BT)<-nomVAR$V1
 rownames(BT)=nomIND$V1
 
